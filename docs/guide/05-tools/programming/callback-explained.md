@@ -332,9 +332,8 @@ async def process_payment(order_id: str):
 
 ## 相关章节
 
-- [第三方登录实现](../../03-case-study/03-authentication.md) - OAuth 回调实战
-- [支付系统集成](../../03-case-study/04-payment-system.md) - 支付回调实战
-- [API 详解](./api-explained.md) - 理解 API 基础
+- [案例拆解](../../03-case-study/) - 真实项目案例（持续更新）
+- [方法论](../../01-methodology/) - 完整开发流程
 
 ---
 
