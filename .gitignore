@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temp files
+*.tmp
+.temp/
+
+# Development documents (archived)
+.dev-docs/
+
+# Internal strategy documents
+STRATEGY_NOTE.md
+docs/community/.commercial-license.md
+docs/community/.LICENSE_SUMMARY.md
+
+# Author's private Skills (not for public)
+.cursor/skills/tutorial-writer/
+.cursor/skills/skill-creator/

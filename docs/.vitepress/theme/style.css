@@ -1,0 +1,334 @@
+/**
+ * Vibe Coding 设计规范
+ * 基于 UI_DESIGN_GUIDE.mdc
+ */
+
+/**
+ * Colors
+ * -------------------------------------------------------------------------- */
+
+:root {
+  /* Primary Colors */
+  --vp-c-brand-1: #1890ff;
+  --vp-c-brand-2: #40a9ff;
+  --vp-c-brand-3: #096dd9;
+  --vp-c-brand-soft: rgba(24, 144, 255, 0.14);
+
+  /* Text Colors - 优化对比度,减少眼睛疲劳 */
+  --vp-c-text-1: #2c3e50;
+  --vp-c-text-2: #5a6c7d;
+  --vp-c-text-3: #99a2aa;
+
+  /* Background Colors - 柔和的背景色 */
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-soft: #f8f9fa;
+  --vp-c-bg-mute: #f1f3f5;
+
+  /* Border Colors */
+  --vp-c-border: #dde1e6;
+  --vp-c-divider: #e9ecef;
+  --vp-c-gutter: #dee2e6;
+
+  /* Semantic Colors */
+  --vp-c-success-1: #52c41a;
+  --vp-c-warning-1: #fa8c16;
+  --vp-c-danger-1: #ff4d4f;
+}
+
+/* Dark mode colors - 优化夜间阅读 */
+.dark {
+  /* 降低暗色模式的对比度,避免强烈的纯白文字 */
+  --vp-c-text-1: rgba(220, 220, 220, 0.92);
+  --vp-c-text-2: rgba(180, 180, 180, 0.72);
+  --vp-c-text-3: rgba(140, 140, 140, 0.56);
+  
+  /* 使用偏蓝的深灰色背景,减少眼睛疲劳 */
+  --vp-c-bg: #1e1e20;
+  --vp-c-bg-soft: #282830;
+  --vp-c-bg-mute: #32323a;
+  
+  /* 柔和的边框 */
+  --vp-c-border: #3a3a42;
+  --vp-c-divider: #2d2d35;
+  --vp-c-gutter: #35353d;
+}
+
+/**
+ * Typography
+ * -------------------------------------------------------------------------- */
+
+:root {
+  /* Font Family - 系统字体栈 */
+  --vp-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'PingFang SC', 'Microsoft YaHei', sans-serif;
+  
+  /* Font Sizes - 稍微增大基础字号,提升可读性 */
+  --vp-font-size-xs: 12px;
+  --vp-font-size-sm: 14px;
+  --vp-font-size-base: 17px;  /* 从16px增加到17px */
+  --vp-font-size-lg: 20px;
+  --vp-font-size-xl: 24px;
+
+  /* Font Weight */
+  --vp-font-weight-regular: 400;
+  --vp-font-weight-semibold: 600;
+  --vp-font-weight-bold: 700;
+
+  /* Line Height - 增加行高,减少视觉密度 */
+  --vp-line-height-base: 1.75;  /* 从1.6增加到1.75 */
+  --vp-line-height-relaxed: 2.0; /* 新增:更宽松的行高 */
+}
+
+/**
+ * Layout (8-Point Grid)
+ * -------------------------------------------------------------------------- */
+
+:root {
+  /* Spacing - 8的倍数 */
+  --vp-space-xs: 4px;
+  --vp-space-sm: 8px;
+  --vp-space-md: 16px;
+  --vp-space-lg: 24px;
+  --vp-space-xl: 32px;
+
+  /* Border Radius */
+  --vp-radius-small: 4px;
+  --vp-radius-base: 8px;
+  --vp-radius-large: 12px;
+
+  /* Shadows */
+  --vp-shadow-1: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --vp-shadow-2: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-text: #ffffff;
+  --vp-button-brand-bg: #1890ff;
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-hover-text: #ffffff;
+  --vp-button-brand-hover-bg: #40a9ff;
+  --vp-button-brand-active-border: transparent;
+  --vp-button-brand-active-text: #ffffff;
+  --vp-button-brand-active-bg: #096dd9;
+
+  /* Button Alt */
+  --vp-button-alt-border: #d9d9d9;
+  --vp-button-alt-text: #595959;
+  --vp-button-alt-bg: transparent;
+  --vp-button-alt-hover-border: #1890ff;
+  --vp-button-alt-hover-text: #1890ff;
+  --vp-button-alt-hover-bg: transparent;
+}
+
+/**
+ * Component: Home Hero
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-home-hero-name-color: #262626;
+  --vp-home-hero-name-background: transparent;
+}
+
+.dark {
+  --vp-home-hero-name-color: rgba(255, 255, 255, 0.87);
+}
+
+/**
+ * Component: Custom Block
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-custom-block-tip-border: transparent;
+  --vp-custom-block-tip-text: var(--vp-c-text-1);
+  --vp-custom-block-tip-bg: rgba(24, 144, 255, 0.1);
+  --vp-custom-block-tip-code-bg: rgba(24, 144, 255, 0.05);
+
+  --vp-custom-block-warning-border: transparent;
+  --vp-custom-block-warning-bg: rgba(250, 140, 22, 0.1);
+
+  --vp-custom-block-danger-border: transparent;
+  --vp-custom-block-danger-bg: rgba(255, 77, 79, 0.1);
+}
+
+/**
+ * Component: Card
+ * -------------------------------------------------------------------------- */
+
+.vp-doc .unified-card,
+.unified-card {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: var(--vp-radius-large);
+  box-shadow: var(--vp-shadow-1);
+  background: var(--vp-c-bg);
+  padding: var(--vp-space-lg);
+  margin: var(--vp-space-md) 0;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: var(--vp-font-weight-semibold);
+  color: var(--vp-c-text-1);
+  margin-bottom: var(--vp-space-sm);
+}
+
+/**
+ * Component: Algolia Search
+ * -------------------------------------------------------------------------- */
+
+.DocSearch {
+  --docsearch-primary-color: #1890ff !important;
+  --docsearch-text-color: #262626 !important;
+  --docsearch-muted-color: #8c8c8c !important;
+}
+
+/**
+ * Animation
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-transition-duration-fast: 200ms;
+  --vp-transition-duration-normal: 300ms;
+  --vp-transition-easing: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 所有过渡动画都使用统一的时长和缓动 */
+* {
+  transition-timing-function: var(--vp-transition-easing);
+}
+
+/**
+ * Global Overrides - 优化长时间阅读体验
+ * -------------------------------------------------------------------------- */
+
+/* 文档内容区域最大宽度,避免行文过长 */
+.vp-doc {
+  max-width: 48rem;  /* 约768px,适合长文本阅读 */
+}
+
+/* 标题与内容之间的留白 */
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3 {
+  margin-top: var(--vp-space-xl);
+  margin-bottom: var(--vp-space-md);
+  letter-spacing: -0.01em;  /* 标题字间距优化 */
+}
+
+.vp-doc h1 {
+  margin-top: calc(var(--vp-space-xl) * 1.5);
+}
+
+/* 段落间距和字间距优化 */
+.vp-doc p {
+  margin: var(--vp-space-lg) 0;  /* 从md增加到lg */
+  line-height: var(--vp-line-height-relaxed);
+  letter-spacing: 0.02em;  /* 增加字间距,减少拥挤感 */
+}
+
+/* 列表优化 */
+.vp-doc ul,
+.vp-doc ol {
+  margin: var(--vp-space-lg) 0;
+  padding-left: calc(var(--vp-space-lg) + var(--vp-space-sm));
+  line-height: var(--vp-line-height-relaxed);
+}
+
+.vp-doc li {
+  margin: var(--vp-space-md) 0;  /* 从sm增加到md */
+}
+
+/* 列表内的段落不需要额外间距 */
+.vp-doc li > p {
+  margin: var(--vp-space-sm) 0;
+}
+
+/* 代码块 - 柔和的背景色 */
+.vp-doc div[class*='language-'] {
+  margin: var(--vp-space-lg) 0;
+  border-radius: var(--vp-radius-base);
+  background-color: var(--vp-c-bg-mute);
+}
+
+.dark .vp-doc div[class*='language-'] {
+  background-color: var(--vp-c-bg-soft);
+}
+
+/* 行内代码优化 */
+.vp-doc :not(pre) > code {
+  padding: 2px 6px;
+  border-radius: 4px;
+  background-color: var(--vp-c-bg-mute);
+  color: var(--vp-c-text-1);
+  font-size: 0.92em;
+}
+
+/* 表格 */
+.vp-doc table {
+  margin: var(--vp-space-xl) 0;
+  font-size: var(--vp-font-size-sm);
+}
+
+.vp-doc th,
+.vp-doc td {
+  padding: var(--vp-space-md) var(--vp-space-lg);
+  border: 1px solid var(--vp-c-divider);
+  line-height: var(--vp-line-height-base);
+}
+
+/* 引用块优化 */
+.vp-doc blockquote {
+  margin: var(--vp-space-lg) 0;
+  padding: var(--vp-space-md) var(--vp-space-lg);
+  border-left: 4px solid var(--vp-c-brand-1);
+  background-color: var(--vp-c-bg-soft);
+  border-radius: var(--vp-radius-base);
+}
+
+/* 按钮 */
+.vp-button {
+  border-radius: var(--vp-radius-base);
+  padding: var(--vp-space-sm) var(--vp-space-lg);
+  font-weight: var(--vp-font-weight-regular);
+}
+
+/* 卡片样式 */
+.vp-feature {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: var(--vp-radius-large);
+  padding: var(--vp-space-lg);
+  background: var(--vp-c-bg);
+  transition: all var(--vp-transition-duration-fast);
+}
+
+.vp-feature:hover {
+  box-shadow: var(--vp-shadow-2);
+  border-color: var(--vp-c-brand-1);
+}
+
+/* 侧边栏优化 - 增加可读性 */
+.VPSidebar {
+  font-size: var(--vp-font-size-sm);
+}
+
+.VPSidebarItem {
+  line-height: 1.6;
+  margin: 4px 0;
+}
+
+/* 文档正文字体渲染优化 */
+.vp-doc {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* 图片优化 */
+.vp-doc img {
+  border-radius: var(--vp-radius-base);
+  margin: var(--vp-space-lg) 0;
+}
