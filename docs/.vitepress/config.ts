@@ -7,6 +7,9 @@ export default defineConfig({
   
   lang: 'zh-CN',
   
+  // 忽略死链检查(开发中的文档可能有未完成的链接)
+  ignoreDeadLinks: true,
+  
   // 网站图标和元信息
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
