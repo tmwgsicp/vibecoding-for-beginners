@@ -1,5 +1,5 @@
 # Stage 1: Build
-FROM registry.cn-hangzhou.aliyuncs.com/library/node:20-alpine AS builder
+FROM docker.m.daocloud.io/library/node:20-alpine AS builder
 
 # 设置工作目录
 WORKDIR /app
@@ -18,7 +18,7 @@ COPY . .
 RUN pnpm docs:build
 
 # Stage 2: Production
-FROM registry.cn-hangzhou.aliyuncs.com/library/nginx:alpine
+FROM docker.m.daocloud.io/library/nginx:alpine
 
 # 复制构建产物到 nginx
 COPY --from=builder /app/docs/.vitepress/dist /usr/share/nginx/html
