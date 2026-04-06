@@ -35,15 +35,17 @@
    - AI 驱动的新闻日报生成
    - **本教程核心案例** | [体验产品](https://ainewsrss.waytomaster.com/)
 
-**其他开源(4 个 + 更多在路上):**
+**其他开源(5 个 + 更多在路上):**
 
-3. **PhoneAgent** ![stars](https://img.shields.io/github/stars/tmwgsicp/PhoneAgent?style=flat-square) - [AI 手机自动化](https://github.com/tmwgsicp/PhoneAgent)
+3. **wechat-cli-bridge** ![stars](https://img.shields.io/github/stars/tmwgsicp/wechat-cli-bridge?style=flat-square) - [微信远程操控 AI CLI 工具](https://github.com/tmwgsicp/wechat-cli-bridge)
 
-4. **dify-on-qianniu** ![stars](https://img.shields.io/github/stars/tmwgsicp/dify-on-qianniu?style=flat-square) - [千牛智能客服](https://github.com/tmwgsicp/dify-on-qianniu)
+4. **PhoneAgent** ![stars](https://img.shields.io/github/stars/tmwgsicp/PhoneAgent?style=flat-square) - [AI 手机自动化](https://github.com/tmwgsicp/PhoneAgent)
 
-5. **voicetype** ![stars](https://img.shields.io/github/stars/tmwgsicp/voicetype?style=flat-square) - [AI 语音输入](https://github.com/tmwgsicp/voicetype)
+5. **dify-on-qianniu** ![stars](https://img.shields.io/github/stars/tmwgsicp/dify-on-qianniu?style=flat-square) - [千牛智能客服](https://github.com/tmwgsicp/dify-on-qianniu)
 
-6. **video-download-api** ![stars](https://img.shields.io/github/stars/tmwgsicp/video-download-api?style=flat-square) - [跨平台视频下载](https://github.com/tmwgsicp/video-download-api)
+6. **voicetype** ![stars](https://img.shields.io/github/stars/tmwgsicp/voicetype?style=flat-square) - [AI 语音输入](https://github.com/tmwgsicp/voicetype)
+
+7. **video-download-api** ![stars](https://img.shields.io/github/stars/tmwgsicp/video-download-api?style=flat-square) - [跨平台视频下载](https://github.com/tmwgsicp/video-download-api)
 
 _...更多项目开发中_
 
