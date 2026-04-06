@@ -40,7 +40,7 @@ Skills 文档会根据实际使用经验逐步补充真实案例。
 
 ---
 
-### [编程概念](./programming/)
+### [编程概念](./programming/callback-explained.md)
 
 **已完成:**
 - [回调(Callback)详解](./programming/callback-explained.md)

@@ -12,7 +12,7 @@ Cursor/Claude Code 等工具选择和使用指南
 ### [Cursor Skills 使用指南](./cursor-skills.md)
 Cursor Skills 功能简明指南（持续完善中）
 
-### [编程概念](./programming/)
+### [编程概念](./programming/callback-explained.md)
 回调函数等基础编程概念解释
 
 ---

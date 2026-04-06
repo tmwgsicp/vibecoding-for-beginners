@@ -15,8 +15,8 @@
 本项目采用 **GNU Affero General Public License v3.0 (AGPL-3.0)** 开源。
 
 **协议链接:**  
-- [完整协议文本](/LICENSE)
-- [详细使用说明](/COPYRIGHT.md)
+- [完整协议文本](https://github.com/tmwgsicp/vibecoding-for-beginners/blob/main/LICENSE)
+- [详细使用说明](https://github.com/tmwgsicp/vibecoding-for-beginners/blob/main/COPYRIGHT.md)
 
 ---
 
@@ -300,6 +300,6 @@ creator@waytomaster.com
 
 ---
 
-**详细使用说明:** 查看 [COPYRIGHT.md](/COPYRIGHT.md)
+**详细使用说明:** 查看 [COPYRIGHT.md](https://github.com/tmwgsicp/vibecoding-for-beginners/blob/main/COPYRIGHT.md)
 
 **版权所有 © 2026-present [@tmwgsicp](https://github.com/tmwgsicp)**

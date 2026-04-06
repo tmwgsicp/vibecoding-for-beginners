@@ -305,7 +305,7 @@
 - 防火墙设置
 
 **解决方案:**
-- 跟着 [部署指南](/guide/01-methodology/12-deployment-guide.md)
+- 跟着 [部署指南](/guide/01-methodology/11-deployment-guide.md)
 - 一步步操作
 - 遇到问题查文档
 - 还不行就在社区问
@@ -353,7 +353,7 @@
 - 核心教程内容(作者编写)
 - 方法论修改
 
-详见 [贡献指南](/CONTRIBUTING.md)
+详见 [贡献指南](https://github.com/tmwgsicp/vibecoding-for-beginners/blob/main/CONTRIBUTING.md)
 
 ---
 

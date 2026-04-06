@@ -512,7 +512,6 @@ The script outputs:
 
 **更多资源:**
 - [Cursor Skills 使用指南](./cursor-skills.md)
-- [本项目的 Skills 示例](../../.cursor/skills/)
 - [社区 Skills 分享](https://github.com/topics/cursor-skills)
 
 ---
