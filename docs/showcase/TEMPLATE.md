@@ -53,11 +53,11 @@
 
 ## 项目截图
 
-![首页](图片链接或路径)
+![首页](./images/placeholder.png)
 
-![功能1](图片链接或路径)
+![功能1](./images/placeholder.png)
 
-![功能2](图片链接或路径)
+![功能2](./images/placeholder.png)
 
 ---
 
