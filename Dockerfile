@@ -1,6 +1,9 @@
 # Stage 1: Build
 FROM node:20-alpine AS builder
 
+# 安装 Git (VitePress 构建需要)
+RUN apk add --no-cache git
+
 # 设置工作目录
 WORKDIR /app
 
