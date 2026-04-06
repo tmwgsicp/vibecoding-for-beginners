@@ -29,9 +29,9 @@
    - 微信公众号 RSS 订阅服务
    - [GitHub](https://github.com/tmwgsicp/wechat-download-api) | [体验产品](https://wechatrss.waytomaster.com/)
 
-2. **AI News RSS**(即将开源)
+2. **AI News RSS** ![stars](https://img.shields.io/github/stars/tmwgsicp/ainews-rss?style=flat-square)
    - AI 驱动的新闻日报生成
-   - **本教程核心案例** | [体验产品](https://ainewsrss.waytomaster.com/)
+   - **本教程核心案例** | [GitHub](https://github.com/tmwgsicp/ainews-rss) | [体验产品](https://ainewsrss.waytomaster.com/)
 
 **其他开源(5 个 + 更多在路上):**
 
