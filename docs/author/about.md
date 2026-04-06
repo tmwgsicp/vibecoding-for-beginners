@@ -10,7 +10,7 @@
 
 **核心经历:**
 - 从零开始学习 AI 辅助编程
-- 做出多个开源项目(累计 600+ stars)
+- 做出多个开源项目 (累计 600+ stars)
 - 2 个 SaaS 产品成功上线并持续盈利
 - 为企业提供 AI 工作流自动化开发
 **为什么做这个教程?**
@@ -29,9 +29,9 @@
    - 微信公众号 RSS 订阅服务
    - [GitHub](https://github.com/tmwgsicp/wechat-download-api) | [体验产品](https://wechatrss.waytomaster.com/)
 
-2. **AI News RSS** ![stars](https://img.shields.io/github/stars/tmwgsicp/ainews-rss?style=flat-square)
+2. **AI News RSS** ![stars](https://img.shields.io/github/stars/tmwgsicp/ai-news-rss?style=flat-square)
    - AI 驱动的新闻日报生成
-   - **本教程核心案例** | [GitHub](https://github.com/tmwgsicp/ainews-rss) | [体验产品](https://ainewsrss.waytomaster.com/)
+   - **本教程核心案例** | [GitHub](https://github.com/tmwgsicp/ai-news-rss) | [体验产品](https://ainewsrss.waytomaster.com/)
 
 **其他开源(6 个 + 更多在路上):**
 
@@ -58,7 +58,7 @@ _...更多项目开发中_
 ::: danger 🔴 重要声明
 - **仅提供付费咨询服务**
 - **添加时必须备注说明来意**,否则不通过
-- 教程已全部开源,请先自学 FAQ
+- 教程已全部开源,请先自学
 - 不提供免费答疑
 :::
 
