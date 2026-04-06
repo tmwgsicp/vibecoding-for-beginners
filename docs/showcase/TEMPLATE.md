@@ -53,11 +53,13 @@
 
 ## 项目截图
 
-![首页](./images/placeholder.png)
+> 在这里添加项目截图,使用格式: `![描述](图片路径)`
 
-![功能1](./images/placeholder.png)
-
-![功能2](./images/placeholder.png)
+**示例:**
+```markdown
+![项目首页](./images/homepage.png)
+![功能演示](./images/feature-demo.png)
+```
 
 ---
 
