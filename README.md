@@ -141,21 +141,29 @@
 
 ## 🚀 作者其他项目
 
-**已上线 SaaS:**
+**已商业化 SaaS (2 个):**
 
-[wechat-download-api](https://github.com/tmwgsicp/wechat-download-api) ![stars](https://img.shields.io/github/stars/tmwgsicp/wechat-download-api?style=flat-square)
-- 微信公众号 RSS 订阅服务
-- 产品: [wechatrss.waytomaster.com](https://wechatrss.waytomaster.com/)
+1. **wechat-download-api** ![stars](https://img.shields.io/github/stars/tmwgsicp/wechat-download-api?style=flat-square)
+   - 微信公众号 RSS 订阅服务
+   - [GitHub](https://github.com/tmwgsicp/wechat-download-api) | [体验产品](https://wechatrss.waytomaster.com/)
 
-**其他开源项目:**
+2. **AI News RSS** ![stars](https://img.shields.io/github/stars/tmwgsicp/ai-news-rss?style=flat-square)
+   - AI 驱动的新闻日报生成
+   - **本教程核心案例** | [GitHub](https://github.com/tmwgsicp/ai-news-rss) | [体验产品](https://ainewsrss.waytomaster.com/)
 
-[voicetype](https://github.com/tmwgsicp/voicetype) ![stars](https://img.shields.io/github/stars/tmwgsicp/voicetype?style=flat-square) - AI 语音输入工具
+**其他开源项目 (6 个):**
 
-[PhoneAgent](https://github.com/tmwgsicp/PhoneAgent) ![stars](https://img.shields.io/github/stars/tmwgsicp/PhoneAgent?style=flat-square) - AI 手机自动化
+3. [wechat-cli-bridge](https://github.com/tmwgsicp/wechat-cli-bridge) ![stars](https://img.shields.io/github/stars/tmwgsicp/wechat-cli-bridge?style=flat-square) - 微信远程操控 AI CLI 工具
 
-[dify-on-qianniu](https://github.com/tmwgsicp/dify-on-qianniu) ![stars](https://img.shields.io/github/stars/tmwgsicp/dify-on-qianniu?style=flat-square) - 智能客服
+4. [voicetype](https://github.com/tmwgsicp/voicetype) ![stars](https://img.shields.io/github/stars/tmwgsicp/voicetype?style=flat-square) - AI 语音输入
 
-[video-download-api](https://github.com/tmwgsicp/video-download-api) ![stars](https://img.shields.io/github/stars/tmwgsicp/video-download-api?style=flat-square) - 视频下载
+5. [vibecoding-for-beginners](https://github.com/tmwgsicp/vibecoding-for-beginners) ![stars](https://img.shields.io/github/stars/tmwgsicp/vibecoding-for-beginners?style=flat-square) - Vibe Coding 新手编程教程 (本项目)
+
+6. [PhoneAgent](https://github.com/tmwgsicp/PhoneAgent) ![stars](https://img.shields.io/github/stars/tmwgsicp/PhoneAgent?style=flat-square) - AI 手机自动化
+
+7. [dify-on-qianniu](https://github.com/tmwgsicp/dify-on-qianniu) ![stars](https://img.shields.io/github/stars/tmwgsicp/dify-on-qianniu?style=flat-square) - 千牛智能客服
+
+8. [video-download-api](https://github.com/tmwgsicp/video-download-api) ![stars](https://img.shields.io/github/stars/tmwgsicp/video-download-api?style=flat-square) - 跨平台视频下载
 
 _...更多项目开发中_
 
