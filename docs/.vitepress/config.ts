@@ -69,7 +69,7 @@ export default defineConfig({
             { text: '部署上线完整指南', link: '/guide/01-methodology/11-deployment-guide' },
             { text: '问题解决', link: '/guide/01-methodology/12-problem-solving' },
             { text: 'Git和开源', link: '/guide/01-methodology/13-git-and-opensource' },
-            { text: '迭代方式', link: '/guide/01-methodology/14-iterating' }
+            { text: '迭代方法', link: '/guide/01-methodology/14-iteration-methods' }
           ]
         },
         {
