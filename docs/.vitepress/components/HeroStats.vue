@@ -28,12 +28,12 @@ onMounted(async () => {
     <div class="stats-content">
       <span class="stats-icon">👋</span>
       <span class="stats-text">
-        欢迎！你是第 
+        👋 欢迎！你是第 
         <span class="stats-number">
           <template v-if="loading">...</template>
           <template v-else>{{ visitors.toLocaleString() }}</template>
         </span>
-        位来学习 Vibe Coding 的开发者
+        位来学习的开发者
       </span>
     </div>
   </div>
