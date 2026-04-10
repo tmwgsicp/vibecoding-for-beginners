@@ -47,9 +47,8 @@ docs/community/.LICENSE_SUMMARY.md
 .cursor/skills/tutorial-writer/
 .cursor/skills/skill-creator/
 
-# Cloudflare Worker (部署在 Cloudflare，不需要提交源码)
-cloudflare-worker/
-cloudflare-worker-analytics.js
+# Cloudflare Worker (包含 API Token，不提交 Git)
+cloudflare-worker*.js
 
 # 临时文档和脚本
 *-setup.md
