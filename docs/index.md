@@ -31,6 +31,12 @@ features:
     details: 所有内容永久免费。教你做产品，而不是推销课程。
 ---
 
+<script setup>
+import HeroStats from './.vitepress/components/HeroStats.vue'
+</script>
+
+<HeroStats />
+
 ## 🎯 适合谁?
 
 - **✅ 完全不会编程** - 想用AI做产品,但不知道从哪开始

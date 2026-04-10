@@ -19,6 +19,11 @@ export default defineConfig({
     ['meta', { property: 'og:description', content: '用AI做出完整产品的方法论' }],
     ['meta', { property: 'og:image', content: '/og-image.png' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['script', { 
+      defer: true, 
+      src: 'https://static.cloudflareinsights.com/beacon.min.js',
+      'data-cf-beacon': '{"token": "44903e83c2b54c999bbec61c1a007966"}'
+    }],
   ],
   
   // 主题配置
