@@ -311,5 +311,3 @@ AI: [对比分析]
 **记住：AI 让你更快，但不能替你思考。**
 
 **你的角色是"架构师 + 质检员"，AI 的角色是"高效的编码助手"。**
-
-[← 上一节：追求完美](/guide/02-pitfalls/01-perfectionism) | [下一节：不重视测试 →](/guide/02-pitfalls/03-ignoring-tests)
