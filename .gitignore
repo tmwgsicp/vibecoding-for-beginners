@@ -46,3 +46,11 @@ docs/community/.LICENSE_SUMMARY.md
 # Author's private Skills (not for public)
 .cursor/skills/tutorial-writer/
 .cursor/skills/skill-creator/
+
+# Cloudflare Worker (部署在 Cloudflare，不需要提交源码)
+cloudflare-worker/
+cloudflare-worker-analytics.js
+
+# 临时文档和脚本
+*-setup.md
+*-proxy-*.md
