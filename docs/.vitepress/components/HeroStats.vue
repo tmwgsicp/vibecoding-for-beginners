@@ -1,9 +1,26 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted } from 'vue'
 
-// 手动设置访客数（定期更新）
-const visitors = ref(800)
-const loading = ref(false)
+const visitors = ref(100)
+const loading = ref(true)
+
+// Cloudflare Worker API 地址
+const API_URL = 'https://vibecoding-analytics.2589462900.workers.dev'
+
+onMounted(async () => {
+  try {
+    const response = await fetch(API_URL)
+    const data = await response.json()
+    
+    if (!data.error) {
+      visitors.value = data.visitors
+    }
+  } catch (error) {
+    console.error('Failed to fetch analytics:', error)
+  } finally {
+    loading.value = false
+  }
+})
 
 </script>
 
