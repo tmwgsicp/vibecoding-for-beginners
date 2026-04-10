@@ -27,9 +27,8 @@ onMounted(async () => {
 <template>
   <div class="hero-stats">
     <div class="stats-content">
-      <span class="stats-icon">👋</span>
       <span class="stats-text">
-        👋 欢迎！你是第 
+        欢迎！你是第 
         <span class="stats-number">
           <template v-if="loading">...</template>
           <template v-else>{{ visitors.toLocaleString() }}</template>
@@ -42,47 +41,51 @@ onMounted(async () => {
 
 <style scoped>
 .hero-stats {
-  margin: 32px 0;
+  margin: 40px 0 24px 0;
   text-align: center;
 }
 
 .stats-content {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
-  padding: 16px 32px;
-  background: var(--vp-c-bg-soft);
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 8px;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, 
+    rgba(24, 144, 255, 0.05) 0%, 
+    rgba(82, 196, 26, 0.05) 100%
+  );
+  border: 1px solid var(--vp-c-brand-soft);
+  border-radius: 20px;
   transition: all 0.3s ease;
 }
 
 .stats-content:hover {
   border-color: var(--vp-c-brand-1);
-  box-shadow: 0 2px 12px rgba(24, 144, 255, 0.1);
-}
-
-.stats-icon {
-  font-size: 20px;
+  background: linear-gradient(135deg, 
+    rgba(24, 144, 255, 0.08) 0%, 
+    rgba(82, 196, 26, 0.08) 100%
+  );
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(24, 144, 255, 0.15);
 }
 
 .stats-text {
-  font-size: 16px;
+  font-size: 15px;
   color: var(--vp-c-text-2);
-  line-height: 1.5;
+  line-height: 1.6;
+  font-weight: 500;
 }
 
 .stats-number {
   color: var(--vp-c-brand-1);
-  font-weight: 600;
-  font-size: 18px;
-  font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace;
+  font-weight: 700;
+  font-size: 22px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  margin: 0 4px;
 }
 
 @media (max-width: 768px) {
   .stats-content {
-    padding: 12px 24px;
-    gap: 8px;
+    padding: 10px 20px;
   }
   
   .stats-text {
@@ -90,10 +93,6 @@ onMounted(async () => {
   }
   
   .stats-number {
-    font-size: 16px;
-  }
-  
-  .stats-icon {
     font-size: 18px;
   }
 }
