@@ -31,11 +31,13 @@ features:
     details: 所有内容永久免费。教你做产品，而不是推销课程。
 ---
 
+<!-- 访客统计暂时关闭，待 Cloudflare Worker 稳定后恢复
 <script setup>
 import HeroStats from './.vitepress/components/HeroStats.vue'
 </script>
 
 <HeroStats />
+-->
 
 ## 🎯 适合谁?
 

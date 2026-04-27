@@ -59,7 +59,7 @@ AI 不是魔法，它需要人的引导和把控。把 AI 当成"全自动代码
 因为你需要：
 - 与 AI 深度协作
 - 对 AI 的代码进行过程把控
-- 保持全局视野，理解 AI 写的每一段代码（参考[理解代码](/guide/01-methodology/08-code-understanding)章节）
+- 保持全局视野，理解 AI 写的每一段代码（参考[理解代码](/guide/01-methodology/08-understanding-code)章节）
 - 及时发现方向偏离，立即纠正
 
 **我的真实感受：**
@@ -288,22 +288,18 @@ AI: [对比分析]
 
 ---
 
-## 相关章节
-
-- [理解代码](/guide/01-methodology/08-code-understanding) - 如何理解 AI 写的代码
-- [测试策略](/guide/01-methodology/09-testing-strategy) - 如何测试 AI 生成的代码
-- [Git 和开源](/guide/01-methodology/13-git-and-open-source) - 使用 Git 保护你的代码
-- [不重视测试](/guide/02-pitfalls/03-ignoring-tests) - 不重视测试的后果
-
----
-
 ## 核心要点
 
 1. **Vibe Coding 需要深度集中**，不是让 AI 干活自己玩手机
+
 2. **AI 是工具，你是主导**，关键决策要自己做
+
 3. **理解代码是必须的**，不理解就不要用
-4. **设置权限边界**，危险操作要慎重
+
+4. **设置权限边界**，危险操作（删除、重构）要慎重
+
 5. **测试是底线**，不管 AI 说什么，都要测试
+
 6. **保持思考和判断**，AI 提供信息，你做决策
 
 ---

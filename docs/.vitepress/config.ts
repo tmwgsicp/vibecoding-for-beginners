@@ -84,9 +84,9 @@ export default defineConfig({
             { text: '📖 常见错误介绍', link: '/guide/02-pitfalls/' },
             { text: '追求完美', link: '/guide/02-pitfalls/01-perfectionism' },
             { text: '过度依赖AI', link: '/guide/02-pitfalls/02-over-relying-on-ai' },
-            { text: '不重视测试', link: '/guide/02-pitfalls/03-ignoring-testing' },
-            { text: '技术选型错误', link: '/guide/02-pitfalls/04-wrong-tech-choice' },
-            { text: '闭门造车', link: '/guide/02-pitfalls/05-building-behind-doors' },
+            { text: '不重视测试', link: '/guide/02-pitfalls/03-ignoring-tests' },
+            { text: '技术选型错误', link: '/guide/02-pitfalls/04-wrong-tech-stack' },
+            { text: '闭门造车', link: '/guide/02-pitfalls/05-building-in-isolation' },
             { text: '开源协议问题', link: '/guide/02-pitfalls/06-license-issues' }
           ]
         },
