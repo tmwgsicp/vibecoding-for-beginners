@@ -41,17 +41,20 @@ import HeroStats from './.vitepress/components/HeroStats.vue'
 
 <div class="vibe-tutor-banner">
 
-## 🚀 看完教程，还是不会 Vibe Coding？
+## 🔥 配套工具：Vibe Tutor — AI 编程方法论导师
 
-**边做边学，Vibe Tutor 在你写代码时实时辅导。**
+**把 14 步方法论 + 7 大陷阱检测，直接内嵌到你的 IDE 里。**
 
-- 输入"顺便加个"→ 自动检测范围扩展，提醒你 MVP 原则
-- 修改核心代码 → 智能提示测试，避免功能回退
-- 遇到方法论问题 → 随时问 AI 顾问，基于 14 步给建议
+写代码时自动辅导，不用离开编辑器翻教程：
 
-免费版永久可用 | 支持 Cursor (IDE & CLI) / Claude Code / Codex CLI / Qwen Code
+- 🎯 **范围蔓延检测** — 输入"顺便加个"，自动提醒你 MVP 原则
+- 🛡️ **测试遗漏预警** — 修改核心代码后，智能提示补测试
+- 📋 **方法论随时问** — 不确定下一步做什么？AI 顾问基于 14 步给建议
+- ⚠️ **7 大陷阱实时拦截** — 追求完美、过度依赖 AI、闭门造车...自动识别并提醒
 
-<a href="https://vibetutor.waytomaster.com" target="_blank" class="tutor-link">立即安装</a>
+**免费版永久可用** | 5 大平台全覆盖：Cursor / Claude Code / Codex CLI / Qwen Code / Windsurf
+
+<a href="https://vibetutor.waytomaster.com" target="_blank" class="tutor-link">免费安装 Vibe Tutor →</a>
 
 </div>
 
@@ -64,7 +67,7 @@ import HeroStats from './.vitepress/components/HeroStats.vue'
 
 ## 🚀 快速开始
 
-> **项目状态:** 核心方法论 14 章 + 常见陷阱 6 章已完成,案例和实践章节持续更新中  
+> **项目状态:** 核心方法论 14 章 + 常见陷阱 7 章已完成,案例和实践章节持续更新中  
 > **预计完成:** 2026年6-8月
 
 ### 学习路径

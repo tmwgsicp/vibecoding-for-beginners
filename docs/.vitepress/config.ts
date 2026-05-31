@@ -87,7 +87,8 @@ export default defineConfig({
             { text: '不重视测试', link: '/guide/02-pitfalls/03-ignoring-tests' },
             { text: '技术选型错误', link: '/guide/02-pitfalls/04-wrong-tech-stack' },
             { text: '闭门造车', link: '/guide/02-pitfalls/05-building-in-isolation' },
-            { text: '开源协议问题', link: '/guide/02-pitfalls/06-license-issues' }
+            { text: '开源协议问题', link: '/guide/02-pitfalls/06-license-issues' },
+            { text: '过度配置工具', link: '/guide/02-pitfalls/07-over-configuring-tools' }
           ]
         },
         {
