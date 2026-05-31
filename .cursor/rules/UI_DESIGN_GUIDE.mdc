@@ -1,8 +1,7 @@
 ---
 description: "UI design system: colors, typography, 8-point grid, components (buttons/cards/inputs), animations. Use CSS variables, no hardcoded values."
-alwaysApply: true
+alwaysApply: false
 ---
-
 ## Color System
 
 ```css
