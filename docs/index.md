@@ -39,6 +39,22 @@ import HeroStats from './.vitepress/components/HeroStats.vue'
 <HeroStats />
 -->
 
+<div class="vibe-tutor-banner">
+
+## 🚀 看完教程，还是不会 Vibe Coding？
+
+**边做边学，Vibe Tutor 在你写代码时实时辅导。**
+
+- 输入"顺便加个"→ 自动检测范围扩展，提醒你 MVP 原则
+- 修改核心代码 → 智能提示测试，避免功能回退
+- 遇到方法论问题 → 随时问 AI 顾问，基于 14 步给建议
+
+免费版永久可用 | 支持 Cursor (IDE & CLI) / Claude Code / Codex CLI / Qwen Code
+
+<a href="https://vibetutor.waytomaster.com" target="_blank" class="tutor-link">立即安装</a>
+
+</div>
+
 ## 🎯 适合谁?
 
 - **✅ 完全不会编程** - 想用AI做产品,但不知道从哪开始
@@ -48,7 +64,7 @@ import HeroStats from './.vitepress/components/HeroStats.vue'
 
 ## 🚀 快速开始
 
-> **项目状态:** 核心方法论 14 章已完成,案例和实践章节持续更新中  
+> **项目状态:** 核心方法论 14 章 + 常见陷阱 6 章已完成,案例和实践章节持续更新中  
 > **预计完成:** 2026年6-8月
 
 ### 学习路径

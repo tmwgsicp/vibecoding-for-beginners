@@ -332,3 +332,96 @@
   border-radius: var(--vp-radius-base);
   margin: var(--vp-space-lg) 0;
 }
+
+/**
+ * Component: Vibe Tutor Banner
+ * -------------------------------------------------------------------------- */
+
+.vibe-tutor-banner {
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-border);
+  border-left: 4px solid var(--vp-c-brand-1);
+  border-radius: var(--vp-radius-large);
+  padding: var(--vp-space-lg) var(--vp-space-xl);
+  margin: var(--vp-space-xl) 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--vp-shadow-1);
+  transition: all var(--vp-transition-duration-normal);
+}
+
+.vibe-tutor-banner:hover {
+  border-left-color: var(--vp-c-brand-2);
+  box-shadow: var(--vp-shadow-2);
+}
+
+.dark .vibe-tutor-banner {
+  background: var(--vp-c-bg-soft);
+  border-color: var(--vp-c-border);
+  border-left-color: var(--vp-c-brand-1);
+}
+
+.vibe-tutor-banner h2 {
+  color: var(--vp-c-brand-1);
+  margin-top: 0 !important;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: var(--vp-space-md);
+}
+
+.dark .vibe-tutor-banner h2 {
+  color: var(--vp-c-brand-2);
+}
+
+.vibe-tutor-banner p {
+  color: var(--vp-c-text-1);
+  margin: var(--vp-space-sm) 0;
+  line-height: var(--vp-line-height-base);
+}
+
+.dark .vibe-tutor-banner p {
+  color: var(--vp-c-text-1);
+}
+
+.vibe-tutor-banner ul {
+  margin: var(--vp-space-md) 0;
+  padding-left: var(--vp-space-lg);
+}
+
+.vibe-tutor-banner li {
+  color: var(--vp-c-text-2);
+  margin: var(--vp-space-sm) 0;
+  line-height: var(--vp-line-height-base);
+}
+
+.dark .vibe-tutor-banner li {
+  color: var(--vp-c-text-2);
+}
+
+.vibe-tutor-banner li strong {
+  color: var(--vp-c-text-1);
+  font-weight: 600;
+}
+
+.tutor-link {
+  display: inline-block;
+  background: var(--vp-c-brand-1);
+  color: white !important;
+  padding: var(--vp-space-sm) var(--vp-space-lg);
+  border-radius: var(--vp-radius-base);
+  font-weight: 600;
+  text-decoration: none !important;
+  margin-top: var(--vp-space-md);
+  transition: all var(--vp-transition-duration-fast);
+  font-size: var(--vp-font-size-sm);
+}
+
+.tutor-link:hover {
+  background: var(--vp-c-brand-2);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(24, 144, 255, 0.25);
+}
+
+.dark .tutor-link:hover {
+  box-shadow: 0 4px 12px rgba(64, 169, 255, 0.2);
+}
