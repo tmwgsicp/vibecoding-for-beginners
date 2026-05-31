@@ -1,5 +1,5 @@
 # Stage 1: Build
-FROM docker.m.daocloud.io/library/node:20-alpine AS builder
+FROM node:20-alpine AS builder
 
 # 安装 Git (VitePress 构建需要)
 RUN apk add --no-cache git
@@ -23,7 +23,7 @@ COPY . .
 RUN pnpm docs:build
 
 # Stage 2: Production
-FROM docker.m.daocloud.io/library/nginx:alpine
+FROM nginx:alpine
 
 # 复制构建产物到 nginx
 COPY --from=builder /app/docs/.vitepress/dist /usr/share/nginx/html
