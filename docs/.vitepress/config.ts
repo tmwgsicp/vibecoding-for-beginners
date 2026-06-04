@@ -101,21 +101,22 @@ export default defineConfig({
             { text: '📖 案例介绍', link: '/guide/03-case-study/' },
             { 
               text: 'AI News RSS 项目',
-              link: '/guide/03-case-study/ainews-rss/',
+              link: '/guide/03-case-study/ainews-rss/00-overview',
               items: [
                 { text: '项目概览', link: '/guide/03-case-study/ainews-rss/00-overview' },
                 { text: '为什么做这个项目', link: '/guide/03-case-study/ainews-rss/01-why' },
                 { text: '需求分析和MVP定义', link: '/guide/03-case-study/ainews-rss/02-requirements' },
-                { text: '技术选型', link: '/guide/03-case-study/ainews-rss/03-tech-stack' },
+                { text: '技术选型', link: '/guide/03-case-study/ainews-rss/03-tech-decisions' },
                 { text: '架构设计', link: '/guide/03-case-study/ainews-rss/04-architecture' },
-                { text: '开发过程 - 爬虫模块', link: '/guide/03-case-study/ainews-rss/05-crawler' },
-                { text: '开发过程 - AI摘要', link: '/guide/03-case-study/ainews-rss/06-ai-summary' },
-                { text: '开发过程 - RSS生成', link: '/guide/03-case-study/ainews-rss/07-rss' },
-                { text: 'AI对话实录', link: '/guide/03-case-study/ainews-rss/08-ai-dialogue' },
-                { text: '测试和调试', link: '/guide/03-case-study/ainews-rss/09-testing' },
-                { text: '部署上线', link: '/guide/03-case-study/ainews-rss/10-deployment' },
-                { text: '商业化探索', link: '/guide/03-case-study/ainews-rss/11-commercialization' },
-                { text: '经验总结', link: '/guide/03-case-study/ainews-rss/12-lessons' }
+                { text: '核心功能实现', link: '/guide/03-case-study/ainews-rss/05-implementation' },
+                { text: '测试和调试', link: '/guide/03-case-study/ainews-rss/06-testing' },
+                { text: '部署上线+开源', link: '/guide/03-case-study/ainews-rss/07-deployment' },
+                { text: 'SaaS版要多做什么', link: '/guide/03-case-study/ainews-rss/08-saas-overview' },
+                { text: '用户体系', link: '/guide/03-case-study/ainews-rss/09-user-system' },
+                { text: '支付逻辑', link: '/guide/03-case-study/ainews-rss/10-payment' },
+                { text: '防薅羊毛', link: '/guide/03-case-study/ainews-rss/11-anti-abuse' },
+                { text: 'SaaS部署', link: '/guide/03-case-study/ainews-rss/12-deployment-saas' },
+                { text: '经验总结', link: '/guide/03-case-study/ainews-rss/13-lessons-learned' }
               ]
             }
           ]
