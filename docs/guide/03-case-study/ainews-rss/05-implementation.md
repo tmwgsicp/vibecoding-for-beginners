@@ -110,6 +110,3 @@ HN 上什么话题都有。设了 `min_score >= 100` 先过滤掉小众帖子，
 
 信息源大部分是英文，但目标用户是中文用户。让模型输出中文标题和摘要，同时 `ContentItem` 里有个 `original_title` 字段保留英文原标题 — 主要用于去重，避免翻译差异导致同一篇文章被判定为两条不同内容。
 
----
-
-[← 第 4 章：架构设计](/guide/03-case-study/ainews-rss/04-architecture) | [第 6 章：测试和调试 →](/guide/03-case-study/ainews-rss/06-testing)

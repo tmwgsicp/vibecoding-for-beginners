@@ -207,6 +207,3 @@ flowchart TD
 
 注意看：聚合器的核心逻辑（抓取 → AI 分析 → 去重 → 存储）在两个版本里是一样的。SaaS 版只是在外面包了一层用户和权限。
 
----
-
-[← 第 3 章：技术选型](/guide/03-case-study/ainews-rss/03-tech-decisions) | [第 5 章：核心功能实现 →](/guide/03-case-study/ainews-rss/05-implementation)

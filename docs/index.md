@@ -77,7 +77,7 @@ import HeroStats from './.vitepress/components/HeroStats.vue'
    - 4-7章: 技术栈科普 → 技术决策 → 环境搭建 → AI 协作
    - 8-14章: 理解代码 → 测试策略 → 架构设计 → 部署指南 → 问题解决 → Git 和开源 → 迭代方法
 
-2. **看真实案例** - AI News RSS 完整项目拆解(已完成 13 章)
+2. **看真实案例** - AI News RSS 完整项目拆解(已完成)
 
 3. **动手实践** - 跟着做项目(规划中)
 

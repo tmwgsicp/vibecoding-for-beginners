@@ -84,6 +84,3 @@ WeChat RSS 先做了 SaaS 化，它的用户系统、支付模块、认证逻辑
 
 有了第一个 SaaS 项目的经验，第二个的启动速度会快很多。这就是方法论里说的"项目积累的复利效应"。
 
----
-
-[← 第 7 章：部署上线](/guide/03-case-study/ainews-rss/07-deployment) | [第 9 章：用户体系 →](/guide/03-case-study/ainews-rss/09-user-system)

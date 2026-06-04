@@ -114,6 +114,3 @@ graph TD
 
 **核心原则：开源版够轻，SaaS 版才加重。** 不要在 MVP 阶段引入不必要的复杂度。
 
----
-
-[← 第 2 章：定义 MVP](/guide/03-case-study/ainews-rss/02-requirements) | [第 4 章：架构设计 →](/guide/03-case-study/ainews-rss/04-architecture)

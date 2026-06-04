@@ -162,6 +162,3 @@ SaaS 版没用 Docker 部署的原因：
 
 颠倒顺序会遇到各种"连接被拒绝"的报错。
 
----
-
-[← 第 11 章：防薅羊毛](/guide/03-case-study/ainews-rss/11-anti-abuse) | [第 13 章：经验总结 →](/guide/03-case-study/ainews-rss/13-lessons-learned)

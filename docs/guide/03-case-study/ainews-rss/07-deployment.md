@@ -70,6 +70,3 @@ SQLite 文件和音频文件（TTS 功能生成的）要挂载到宿主机。如
 
 数据库表是 SQLAlchemy 自动创建的（`create_all`），用户不需要手动建表。但第一次聚合需要等几分钟（AI 分析比较慢），不要以为是卡住了。
 
----
-
-[← 第 6 章：测试和调试](/guide/03-case-study/ainews-rss/06-testing) | [第 8 章：SaaS 版要多做什么 →](/guide/03-case-study/ainews-rss/08-saas-overview)

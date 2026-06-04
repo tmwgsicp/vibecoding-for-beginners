@@ -125,6 +125,3 @@ flowchart LR
 
 开源版的"前端"就是两个静态 HTML 文件 + RSS feed。用户是我自己，RSS 阅读器才是真正的前端。
 
----
-
-[← 第 1 章：发现问题](/guide/03-case-study/ainews-rss/01-why) | [第 3 章：技术选型决策 →](/guide/03-case-study/ainews-rss/03-tech-decisions)

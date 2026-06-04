@@ -148,6 +148,3 @@ AI News RSS SaaS 版 (完整商业化)
 
 **如果你只想快速翻翻：** 看本章概览 + 第 13 章经验总结就够了。
 
----
-
-[← 返回案例介绍](/guide/03-case-study/) | [第 1 章：发现问题和需求验证 →](/guide/03-case-study/ainews-rss/01-why)

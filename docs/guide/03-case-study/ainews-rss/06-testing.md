@@ -95,6 +95,3 @@
 
 前两个是自动的，最后一个是"吃自己的狗粮" — 自己就是用户，质量下降第一时间能感知到。
 
----
-
-[← 第 5 章：核心实现](/guide/03-case-study/ainews-rss/05-implementation) | [第 7 章：部署上线 →](/guide/03-case-study/ainews-rss/07-deployment)

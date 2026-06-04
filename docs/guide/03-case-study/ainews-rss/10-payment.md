@@ -129,6 +129,3 @@ pending（待支付）→ paid（已支付）
 
 源码用的轮询。对个人项目来说完全够了。
 
----
-
-[← 第 9 章：用户体系](/guide/03-case-study/ainews-rss/09-user-system) | [第 11 章：防薅羊毛 →](/guide/03-case-study/ainews-rss/11-anti-abuse)
