@@ -327,6 +327,6 @@ AI 处理模块筛选
 
 ## 参考资源
 
-- [架构设计方法论](../../guide/01-methodology/10-architecture-design.md)
-- [技术决策方法论](../../guide/01-methodology/05-tech-decisions.md)
-- [AI News RSS 架构案例](../../guide/03-case-study/)
+- [架构设计方法论](../../../docs/guide/01-methodology/10-architecture-design.md)
+- [技术决策方法论](../../../docs/guide/01-methodology/05-tech-decisions.md)
+- [AI News RSS 架构案例](../../../docs/guide/03-case-study)

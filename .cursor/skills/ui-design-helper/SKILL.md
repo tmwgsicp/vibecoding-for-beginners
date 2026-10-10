@@ -758,6 +758,6 @@ app.use(ElementPlus)
 
 ## 参考资源
 
-- [UI 设计规范](../../.cursor/rules/UI_DESIGN_GUIDE.mdc)
+- [UI 设计规范](../../rules/UI_DESIGN_GUIDE.mdc)
 - [Element Plus 文档](https://element-plus.org/)
 - [Web 设计最佳实践](https://web.dev/design/)

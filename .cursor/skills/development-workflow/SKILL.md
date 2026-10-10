@@ -405,6 +405,6 @@ A:
 
 ## 参考资源
 
-- [AI 协作技巧](../../guide/01-methodology/07-ai-collaboration.md)
-- [测试策略](../../guide/01-methodology/09-testing-strategy.md)
-- [部署上线指南](../../guide/01-methodology/11-deployment-guide.md)
+- [AI 协作技巧](../../../docs/guide/01-methodology/07-ai-collaboration.md)
+- [测试策略](../../../docs/guide/01-methodology/09-testing-strategy.md)
+- [部署上线指南](../../../docs/guide/01-methodology/11-deployment-guide.md)

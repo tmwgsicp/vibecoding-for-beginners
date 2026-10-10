@@ -282,6 +282,6 @@ AI: "是前端打不开还是后端?"
 
 ## 参考资源
 
-- [问题解决方法论](../../guide/01-methodology/12-problem-solving.md)
-- [部署常见问题](../../guide/01-methodology/11-deployment-guide.md#常见问题)
-- [AI 协作调试技巧](../../guide/01-methodology/07-ai-collaboration.md#调试技巧)
+- [问题解决方法论](../../../docs/guide/01-methodology/12-problem-solving.md)
+- [部署常见问题](../../../docs/guide/01-methodology/11-deployment-guide.md#常见问题)
+- [AI 协作调试技巧](../../../docs/guide/01-methodology/07-ai-collaboration.md#调试技巧)
