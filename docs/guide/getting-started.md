@@ -22,7 +22,7 @@
 - 不想碰终端: [Trae](https://www.trae.cn)(字节跳动)
 - Claude Code 接国内模型: Kimi 或 智谱 GLM 的编程套餐
 
-**注意:** 可以先用免费额度试,认真做项目要买会员或套餐。详见 [AI 工具选择指南](./05-tools/ai-tools-guide)。
+**注意:** 可以先用免费额度试,认真做项目要买会员或套餐。价格各家变化快,以官网为准。
 
 ### 其他工具
 - GitHub 账号
@@ -60,6 +60,5 @@
 
 ## 遇到问题?
 
-- 📖 查阅 [AI工具选择指南](/guide/05-tools/ai-tools-guide)
 - 💬 [GitHub Discussions](https://github.com/tmwgsicp/vibecoding-for-beginners/discussions) 提问
 - 🐛 [GitHub Issues](https://github.com/tmwgsicp/vibecoding-for-beginners/issues) 报告bug

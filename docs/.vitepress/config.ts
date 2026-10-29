@@ -130,17 +130,6 @@ export default defineConfig({
           items: [
             { text: '📖 实践介绍', link: '/guide/04-practice/' }
           ]
-        },
-        {
-          text: '工具和概念 (查阅)',
-          collapsed: true,
-          items: [
-            { text: '📖 工具概览', link: '/guide/05-tools/' },
-            { text: 'AI 工具选择指南', link: '/guide/05-tools/ai-tools-guide' },
-            { text: 'Skills 使用指南', link: '/guide/05-tools/cursor-skills' },
-            { text: '创建你的第一个 Skill', link: '/guide/05-tools/creating-skills-tutorial' },
-            { text: '回调(Callback)详解', link: '/guide/05-tools/programming/callback-explained' }
-          ]
         }
       ],
       

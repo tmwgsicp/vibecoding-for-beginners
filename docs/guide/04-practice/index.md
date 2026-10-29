@@ -33,7 +33,6 @@
 
 ## 📖 配套资源
 
-- **工具文档:** [工具和概念](/guide/05-tools/)
 - **社区讨论:** [GitHub Discussions](https://github.com/tmwgsicp/vibecoding-for-beginners/discussions)
 
-[← 返回指南](/guide/) | [查看工具和概念 →](/guide/05-tools/)
+[← 返回指南](/guide/)
