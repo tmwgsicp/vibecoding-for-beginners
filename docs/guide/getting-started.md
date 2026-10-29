@@ -18,12 +18,11 @@
 
 ### 无法访问国外网络(替代方案)
 
-**通义灵码 或 Trae**
-- 通义灵码: [tongyi.aliyun.com/lingma](https://tongyi.aliyun.com/lingma)
-- Trae: [trae.cn](https://trae.cn)
-- 模型: MiniMax/Kimi/GLM(三选一,需付费使用 API)
+**两条路选一条**
+- 不想碰终端: [Trae](https://www.trae.cn)(字节跳动)
+- Claude Code 接国内模型: Kimi 或 智谱 GLM 的编程套餐
 
-**注意:** IDE 基础功能可试用,模型 API 需要付费调用。
+**注意:** 可以先用免费额度试,认真做项目要买会员或套餐。详见 [AI 工具选择指南](./05-tools/ai-tools-guide)。
 
 ### 其他工具
 - GitHub 账号

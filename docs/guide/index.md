@@ -108,7 +108,7 @@ A: 方法论 14 章大概 3-5 天快速浏览,1-2 周深入理解。后续边做
 A: 能开始做自己的项目。做的过程中遇到问题，回来查对应章节。
 
 ### Q: AI工具需要付费吗?
-A: 认真做项目建议付费。能访问海外的，Claude Code 或 Codex 选一个就够；不方便访问海外的，用通义灵码/Trae 配国内模型。各家价格变化快，以官网为准，详见 [AI 工具选择指南](/guide/05-tools/ai-tools-guide)。
+A: 认真做项目建议付费。能访问海外的，Claude Code 或 Codex 选一个就够；不方便访问海外的，用 Trae，或 Claude Code 接 Kimi / 智谱 GLM。各家价格变化快，以官网为准，详见 [AI 工具选择指南](/guide/05-tools/ai-tools-guide)。
 
 ## 开始学习
 

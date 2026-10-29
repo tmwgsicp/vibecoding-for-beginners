@@ -95,7 +95,7 @@ npm install -g @openai/codex
 
 装好后在项目文件夹里输入 `claude` 或 `codex` 启动,第一次会让你登录账号。
 
-**不方便访问海外:** 用通义灵码或 Trae,详见 [AI 工具选择指南](../05-tools/ai-tools-guide)。
+**不方便访问海外:** 用 Trae,或 Claude Code 接 Kimi / 智谱 GLM,详见 [AI 工具选择指南](../05-tools/ai-tools-guide)。
 
 ---
 
