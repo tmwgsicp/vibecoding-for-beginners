@@ -12,6 +12,9 @@ export default defineConfig({
   
   // Docker 构建环境无 git，关闭 lastUpdated
   lastUpdated: false,
+
+  // 内部写作计划不作为公开页面发布
+  srcExclude: ['**/_*.md'],
   
   // 网站图标和元信息
   head: [
@@ -122,22 +125,10 @@ export default defineConfig({
           ]
         },
         {
-          text: '动手实践 (10%)',
+          text: '动手实践 (规划中)',
           collapsed: true,
           items: [
-            { text: '📖 实践介绍', link: '/guide/04-practice/' },
-            { 
-              text: 'AI对话助手(带工具调用)',
-              link: '/guide/04-practice/ai-chat/',
-              items: [
-                { text: '项目介绍', link: '/guide/04-practice/ai-chat/00-intro' },
-                { text: 'Week 1: 基础对话', link: '/guide/04-practice/ai-chat/week1-mvp/' },
-                { text: 'Week 2: 用户系统', link: '/guide/04-practice/ai-chat/week2-user/' },
-                { text: 'Week 3: 工具调用', link: '/guide/04-practice/ai-chat/week3-tools/' },
-                { text: 'Week 4: 上线运营', link: '/guide/04-practice/ai-chat/week4-deploy/' }
-              ]
-            },
-            { text: '做自己的项目', link: '/guide/04-practice/your-own-project' }
+            { text: '📖 实践介绍', link: '/guide/04-practice/' }
           ]
         },
         {
@@ -145,10 +136,10 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '📖 工具概览', link: '/guide/05-tools/' },
-            { text: 'AI工具', link: '/guide/05-tools/ai-tools/' },
-            { text: '编程概念', link: '/guide/05-tools/programming/' },
-            { text: '开源相关', link: '/guide/05-tools/opensource/' },
-            { text: '部署工具', link: '/guide/05-tools/deployment/' }
+            { text: 'AI 工具选择指南', link: '/guide/05-tools/ai-tools-guide' },
+            { text: 'Skills 使用指南', link: '/guide/05-tools/cursor-skills' },
+            { text: '创建你的第一个 Skill', link: '/guide/05-tools/creating-skills-tutorial' },
+            { text: '回调(Callback)详解', link: '/guide/05-tools/programming/callback-explained' }
           ]
         }
       ],

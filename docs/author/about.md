@@ -8,6 +8,12 @@
 
 从传统财务出发，经历财务数字化转型，到 AI 自动化开发，一路跨界。靠 AI 重度协作 + 14 步 Vibe Coding 方法论，独立构建了多个 SaaS 产品并稳定运营。目前为外企提供全栈 AI 自动化开发服务，同时经营个人产品矩阵。
 
+几个可以验证的结果：
+
+- 微信公众号文章获取的开源项目 [wechat-download-api](https://github.com/tmwgsicp/wechat-download-api) 拿到 1000+ Star
+- 在它基础上做的 **WeChat RSS**，以及后来的跨平台订阅工具 **SocialRSS**，都已经商业化、有稳定的付费用户
+- 这些产品都是我一个人用 AI 做出来、自己在运营的
+
 教程里的 14 步流程、7 大陷阱，全部是做项目时踩坑后总结出来的，不是先有理论再凑案例。
 
 ---
@@ -72,21 +78,23 @@
 
 | 产品 | 定位 | 链接 |
 |------|------|------|
-| **WeChat RSS** | 微信公众号 RSS 订阅服务，700+ 活跃用户，将公众号文章变成标准 RSS 源 | [体验](https://wechatrss.waytomaster.com/) · [GitHub](https://github.com/tmwgsicp/wechat-download-api) |
+| **WeChat RSS** | 微信公众号 RSS 订阅服务，将公众号文章变成标准 RSS 源，已商业化 | [体验](https://wechatrss.waytomaster.com/) · [GitHub](https://github.com/tmwgsicp/wechat-download-api) |
+| **SocialRSS** | 小红书、B站、抖音、快手等平台的博主更新，一个地方订阅看全，已商业化 | [体验](https://socialrss.waytomaster.com/) |
 | **AI NewsRSS** | AI 新闻智能聚合订阅，每天 10 分钟掌握全球 AI 领域最新动态（本教程核心案例）| [体验](https://ainewsrss.waytomaster.com/) |
 | **InvestorRSS** | 投资信息 RSS 聚合，覆盖 A 股/美股/港股 10 个平台，支持 AI 摘要和 PDF 提取 | [体验](https://investorrss.waytomaster.com) |
-| **Vibe Tutor** | AI 编程实时教练，基于 14 步方法论，支持 Cursor/Claude Code/Codex/Qwen | [官网](https://vibetutor.waytomaster.com) |
+| **Vibe Tutor** | AI 编程实时教练，基于 14 步方法论，支持 Claude Code/Codex/Cursor/Qwen Code/Windsurf | [官网](https://vibetutor.waytomaster.com) |
 
 ### 开源项目
 
 | 项目 | 说明 | Stars |
 |------|------|-------|
-| **[ForgeRSS](https://github.com/tmwgsicp/ForgeRSS)** | 将任意网站转换为 RSS 订阅源，多引擎抓取、反爬突破，支持 20+ 平台 | ![stars](https://img.shields.io/github/stars/tmwgsicp/ForgeRSS?style=flat-square) |
-| **[im-cli-bridge](https://github.com/tmwgsicp/im-cli-bridge)** | Bridge any IM to AI coding CLIs — 6 IM x 6 CLI，用手机远程操控 AI 编程 | ![stars](https://img.shields.io/github/stars/tmwgsicp/im-cli-bridge?style=flat-square) |
 | **[wechat-download-api](https://github.com/tmwgsicp/wechat-download-api)** | 微信公众号文章获取 & RSS 订阅 API 服务，支持 IP 代理池反风控 | ![stars](https://img.shields.io/github/stars/tmwgsicp/wechat-download-api?style=flat-square) |
+| **[ForgeRSS](https://github.com/tmwgsicp/ForgeRSS)** | 将任意网站转换为 RSS 订阅源，多引擎抓取、反爬突破，支持 20+ 平台 | ![stars](https://img.shields.io/github/stars/tmwgsicp/ForgeRSS?style=flat-square) |
 | **[vibecoding-for-beginners](https://github.com/tmwgsicp/vibecoding-for-beginners)** | 本项目 - Vibe Coding 新手实战指南 | ![stars](https://img.shields.io/github/stars/tmwgsicp/vibecoding-for-beginners?style=flat-square) |
 | **[voicetype](https://github.com/tmwgsicp/voicetype)** | 场景自适应 AI 语音输入，自动识别应用切换场景，支持语音唤醒 | ![stars](https://img.shields.io/github/stars/tmwgsicp/voicetype?style=flat-square) |
+| **[im-cli-bridge](https://github.com/tmwgsicp/im-cli-bridge)** | Bridge any IM to AI coding CLIs — 6 IM x 6 CLI，用手机远程操控 AI 编程 | ![stars](https://img.shields.io/github/stars/tmwgsicp/im-cli-bridge?style=flat-square) |
 | **[content-distiller](https://github.com/tmwgsicp/content-distiller)** | 内容蒸馏器 — 从任意网页/文档中智能提取核心内容，去噪去重 | ![stars](https://img.shields.io/github/stars/tmwgsicp/content-distiller?style=flat-square) |
+| **[vibe-launch](https://github.com/tmwgsicp/vibe-launch)** | 把 AI 写的项目一句话部署到你自己的服务器，MCP 原生，数据库不开公网端口 | ![stars](https://img.shields.io/github/stars/tmwgsicp/vibe-launch?style=flat-square) |
 
 _...更多项目开发中_
 

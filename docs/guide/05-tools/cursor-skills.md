@@ -1,17 +1,15 @@
-# Cursor Skills 使用指南
-
-> **内容状态:** 规划中，基于真实使用经验重写
+# Skills 使用指南
 
 ---
 
 ## 什么是 Skills?
 
-Cursor 的 Skills 功能可以让你定义结构化的 AI 工作流。
+Skills 可以让你定义结构化的 AI 工作流。它最早由 Anthropic 提出，现在是开放标准（agentskills.io），Claude Code、Codex、Cursor 都支持，同一份 Skill 几个工具都能用。
 
 **本质:**
 - 结构化的提示词
 - 特定场景自动激活
-- 沉淀最佳实践
+- 把做过一次的好做法固定下来
 
 **和普通对话的区别:**
 - 普通对话: 每次都要重新描述
@@ -21,7 +19,7 @@ Cursor 的 Skills 功能可以让你定义结构化的 AI 工作流。
 
 ## 本项目的 Skills
 
-项目包含了几个实用的 Skills，位于 `.cursor/skills/` 目录：
+项目包含了几个实用的 Skills，位于仓库的 `.cursor/skills/` 目录：
 
 ### 开发相关
 - **development-workflow** - 开发流程引导
@@ -53,12 +51,14 @@ Cursor 的 Skills 功能可以让你定义结构化的 AI 工作流。
 
 ### 方式 2: 手动指定
 
-使用 `@` 明确调用：
+在对话里直接点名：
 
 ```
-@solution-design 帮我分析这个项目的技术方案
-@requirement-breakdown 拆解这个需求
+用 solution-design 帮我分析这个项目的技术方案
+用 requirement-breakdown 拆解这个需求
 ```
+
+Claude Code 里也可以输入 `/` 加 Skill 名字来调用。
 
 ---
 
@@ -67,9 +67,19 @@ Cursor 的 Skills 功能可以让你定义结构化的 AI 工作流。
 ### 基本结构
 
 ```
-.cursor/skills/your-skill/
+your-skill/
 └── SKILL.md    # 核心指令文件
 ```
+
+**放在哪里:** 不同工具读不同的目录，放在项目里就只对这个项目生效。
+
+| 工具 | 项目里的目录 |
+|------|------------|
+| Claude Code | `.claude/skills/` |
+| Codex | `.agents/skills/` |
+| Cursor | `.cursor/skills/` 或 `.agents/skills/` |
+
+同时用几个工具时，放在 `.agents/skills/`，Codex 和 Cursor 都能读到；Claude Code 再复制一份到 `.claude/skills/`。想用本项目的 Skills，把 `.cursor/skills/` 里的文件夹复制到你的工具对应的目录就行。
 
 ### SKILL.md 格式
 
@@ -107,14 +117,13 @@ description: 简短描述做什么、何时使用。包含触发关键词。
 
 ## 相关资源
 
-- [Cursor Skills 官方文档](https://docs.cursor.com/features/skills)
+- [Agent Skills 开放标准](https://agentskills.io)
+- [Claude Code Skills 文档](https://code.claude.com/docs/en/skills)
+- [Codex Skills 文档](https://learn.chatgpt.com/docs/build-skills)
+- [Cursor Skills 文档](https://cursor.com/docs/context/skills)
 - 项目 Skills 源码: `.cursor/skills/` 目录
-- 创建指南: 使用 `@skill-creator` 交互式创建
+- 创建指南: 让 AI 用 skill-creator 带你一步步创建
 
 ---
 
 **下一步:** 试试使用项目中的 Skills，体验效果。
-
-::: tip 文档完善中
-这份文档会根据实际使用经验持续更新，补充更多真实案例和踩坑经验。
-:::

@@ -17,8 +17,8 @@
 
 **3 个工具:**
 - **Python 3.11+** - https://www.python.org/
-- **Node.js 18+** - https://nodejs.org/
-- **Cursor** - https://cursor.com/home/
+- **Node.js(当前 LTS 版本)** - https://nodejs.org/
+- **AI 编程工具** - Claude Code 或 Codex,选一个
 
 ---
 
@@ -71,16 +71,31 @@ npm --version
 
 ---
 
-### Cursor 安装
+### AI 编程工具安装
 
-1. 下载安装包
-2. 安装
-3. 第一次打开会要求登录(可以用 GitHub 账号)
-4. 完成
+Claude Code 和 Codex 选一个就行,都是能自己读代码、改代码、跑命令的 AI 编程助手。
 
-**如果没有 Cursor:**
-- 可以用 VSCode + AI 插件(通义灵码/GitHub Copilot)
-- 但推荐 Cursor,效率更高
+**Claude Code:**
+
+```bash
+# macOS / Linux
+curl -fsSL https://claude.ai/install.sh | bash
+```
+
+```powershell
+# Windows(PowerShell)
+irm https://claude.ai/install.ps1 | iex
+```
+
+**Codex:**
+
+```bash
+npm install -g @openai/codex
+```
+
+装好后在项目文件夹里输入 `claude` 或 `codex` 启动,第一次会让你登录账号。
+
+**不方便访问海外:** 用通义灵码或 Trae,详见 [AI 工具选择指南](../05-tools/ai-tools-guide)。
 
 ---
 
@@ -320,7 +335,7 @@ pip install xxx
 
 2. **免费 AI 也够用**
    - 当时用的通义灵码(免费)
-   - 不是 Claude Sonnet 4.6(最强)
+   - 不是当时最强的 Claude
    - 工具不是瓶颈
 
 3. **能挣钱才是硬道理**
@@ -337,7 +352,7 @@ pip install xxx
 **上午(1-2 小时):**
 1. 装 Python(30 分钟)
 2. 装 Node.js(20 分钟)
-3. 装 Cursor(10 分钟)
+3. 装 Claude Code 或 Codex(10 分钟)
 4. 验证安装成功(10 分钟)
 
 **下午(30 分钟):**

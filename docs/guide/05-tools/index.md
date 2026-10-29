@@ -6,13 +6,13 @@
 
 ---
 
-## 📚 已完成内容
+## 📚 内容
 
 ### [AI 编程工具选择指南](./ai-tools-guide.md)
 
 完整的 AI 编程工具选择和使用指南:
-- Cursor/Claude Code vs 国内工具
-- 模型推荐(Claude Opus/Sonnet, MiniMax, Kimi, GLM)
+- Claude Code / Codex vs 国内工具
+- 模型怎么选
 - 使用建议和组合方案
 
 **什么时候看:**
@@ -22,9 +22,9 @@
 
 ---
 
-### [Cursor Skills 使用指南](./cursor-skills.md)
+### [Skills 使用指南](./cursor-skills.md)
 
-Cursor Skills 功能的简明使用指南:
+Skills 功能的简明使用指南(Claude Code、Codex、Cursor 等都支持):
 - Skills 概念和原理
 - 使用项目内置 Skills
 - 创建自己的 Skills
@@ -34,22 +34,13 @@ Cursor Skills 功能的简明使用指南:
 - 觉得 AI 回答不够好
 - 想把重复工作自动化
 
-::: tip 持续完善中
-Skills 文档会根据实际使用经验逐步补充真实案例。
-:::
+想自己写一个,看 [创建你的第一个 Skill](./creating-skills-tutorial.md),用"Git 提交信息助手"做例子,从头走一遍。
 
 ---
 
 ### [编程概念](./programming/callback-explained.md)
 
-**已完成:**
 - [回调(Callback)详解](./programming/callback-explained.md)
-
-**规划中:**
-- API 详解
-- CORS 详解
-- 数据库基础
-- Git 必备知识
 
 **什么时候看:**
 - 看到不懂的技术术语
@@ -57,20 +48,6 @@ Skills 文档会根据实际使用经验逐步补充真实案例。
 - 需要快速了解某个技术
 
 **注意:** 不需要深入学习，知道"是什么"、"怎么用"就够了。
-
----
-
-## 📋 规划中内容
-
-### 开源相关(待补充)
-- 开源协议指南
-- GitHub 技巧
-- 如何找好项目
-
-### 部署工具(待补充)
-- Docker 基础
-- 部署方案对比
-- VPS 选择指南
 
 ---
 
@@ -95,27 +72,13 @@ Skills 文档会根据实际使用经验逐步补充真实案例。
 
 **场景2: 做项目时**
 ```
-要用 Git → 不会 → 查 Git 必备知识(待补充) → 学够用的 → 开始用
+要用 Git → 不会 → 看方法论第 13 章 Git 和开源 → 学够用的 → 开始用
 ```
 
 **场景3: 选择工具时**
 ```
-不知道用 Cursor 还是 Claude Code → 查 AI 工具指南 → 做决策
+不知道用 Claude Code 还是 Codex → 查 AI 工具指南 → 做决策
 ```
-
----
-
-## 📊 内容更新进度
-
-| 类别 | 进度 | 说明 |
-|------|------|------|
-| AI 工具指南 | ✅ 100% | 核心内容已完成 |
-| Cursor Skills | 🔄 60% | 基础文档完成，待补充真实案例 |
-| 编程概念 | 🔄 10% | 仅 Callback 完成，其他待补充 |
-| 开源相关 | 📝 0% | 规划中 |
-| 部署工具 | 📝 0% | 规划中 |
-
-**预计完成:** 2026年6-8月
 
 ---
 

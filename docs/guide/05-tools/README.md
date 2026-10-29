@@ -4,24 +4,19 @@
 
 ---
 
-## 已完成内容
+## 内容
 
 ### [AI 编程工具选择指南](./ai-tools-guide.md)
-Cursor/Claude Code 等工具选择和使用指南
+Claude Code、Codex 等工具选择和使用指南
 
-### [Cursor Skills 使用指南](./cursor-skills.md)
-Cursor Skills 功能简明指南（持续完善中）
+### [Skills 使用指南](./cursor-skills.md)
+Skills 功能简明指南
+
+### [创建你的第一个 Skill](./creating-skills-tutorial.md)
+以 Git 提交信息助手为例，从头写一个 Skill
 
 ### [编程概念](./programming/callback-explained.md)
 回调函数等基础编程概念解释
-
----
-
-## 规划中
-
-- 开源相关
-- 部署工具
-- 更多编程概念
 
 ---
 

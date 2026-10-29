@@ -8,11 +8,13 @@
 
 ### 有预算 + 能上国外(最佳组合)
 
-**Cursor Pro + Claude Code**
-- Cursor Pro($20/月): 可视化 IDE,包含 Claude 使用额度
-- Claude Code: CLI 终端工具,Git 工作流自动化
-- 下载: [cursor.com](https://cursor.com)
-- 安装 CLI: `curl -fsSL https://claude.ai/install.sh | bash`
+**Claude Code 或 Codex,选一个主力就够**
+- Claude Code(Anthropic): 能自己读代码、改代码、跑命令的 AI 编程助手,有终端、桌面端、网页和 IDE 插件
+  - macOS/Linux 安装: `curl -fsSL https://claude.ai/install.sh | bash`
+  - Windows 安装(PowerShell): `irm https://claude.ai/install.ps1 | iex`
+- Codex(OpenAI): 同类的 AI 编程助手,在终端里用
+  - 安装: `npm install -g @openai/codex`
+- 价格各家变化快,以官网为准
 
 ### 无法访问国外网络(替代方案)
 
@@ -25,8 +27,11 @@
 
 ### 其他工具
 - GitHub 账号
-- VPS 服务器(部署时)
+- VPS 服务器(部署时),配合开源工具 [vibe-launch](https://github.com/tmwgsicp/vibe-launch) 一句话部署
 - 域名(正式产品时)
+
+### 可选: 装上 Vibe Tutor 边做边学
+[Vibe Tutor](https://vibetutor.waytomaster.com) 把本教程的方法论装进你的 AI 编程工具,写代码时实时提醒踩坑。装好后在项目里运行 `/tutor-init`,它会按你项目的阶段给出下一步建议。免费版永久可用。
 
 ---
 
@@ -48,9 +53,9 @@
 3. [AI协作技巧](/guide/01-methodology/07-ai-collaboration)
 
 ### 案例驱动
-先学方法论,等案例更新后深度学习
+先看一个真实产品从开源到商业化的全过程,再回头补方法论
 
-[查看更新进度 →](/guide/)
+[查看真实案例 →](/guide/03-case-study/)
 
 ---
 

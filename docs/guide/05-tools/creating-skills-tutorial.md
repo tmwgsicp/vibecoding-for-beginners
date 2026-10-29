@@ -129,9 +129,9 @@ Suggest 2-3 variations with different detail levels
 ### 3.1 创建目录结构
 
 ```bash
-# 在项目根目录执行
-mkdir -p .cursor/skills/git-commit-helper
-cd .cursor/skills/git-commit-helper
+# 在项目根目录执行(Claude Code 用 .claude/skills,Codex 和 Cursor 用 .agents/skills)
+mkdir -p .claude/skills/git-commit-helper
+cd .claude/skills/git-commit-helper
 ```
 
 ### 3.2 创建 SKILL.md
@@ -301,7 +301,7 @@ echo "test" > test.txt
 git add test.txt
 ```
 
-### 4.2 在 Cursor 中测试
+### 4.2 在 AI 编程工具里测试
 
 ```
 你: "帮我写这次提交的 commit message"
@@ -511,9 +511,5 @@ The script outputs:
 4. 分享你的 Skill 和经验
 
 **更多资源:**
-- [Cursor Skills 使用指南](./cursor-skills.md)
-- [社区 Skills 分享](https://github.com/topics/cursor-skills)
-
----
-
-**准备好了吗?** 开始创建你的第一个 Skill 吧!
+- [Skills 使用指南](./cursor-skills.md)
+- [Agent Skills 开放标准](https://agentskills.io)
